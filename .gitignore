@@ -1,0 +1,31 @@
+# Build outputs
+/target/
+/src-tui/target/
+**/*.pdb
+**/*.rlib
+node_modules/
+dist/
+build/
+
+# Runtime generated (local machine only)
+/lzcr-info.json
+/llc-info.json
+/config.json
+/temp/
+
+# Environment and local overrides
+.env
+.env.*
+*.local
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor / OS files
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
